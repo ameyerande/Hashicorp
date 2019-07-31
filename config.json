@@ -19,5 +19,5 @@
   "region" : "us-east-2",
   "access_key" : "AKIAIOSFODNN7EXAMPLE",
   "secret_key" : "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
-  "kms_key_id" : "17d28eaa-df71-4d38-8719-27658fd6d500"
+  "kms_key_id" : "02d1d3ee-dfba-4d66-9e66-2054fa1054fe"
 }
