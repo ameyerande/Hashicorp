@@ -23,6 +23,8 @@ cp vault.service /etc/systemd/system
 
 systemctl start vault
 
+export VAULT_ADDR=http://127.0.0.1:8200
+
 vault status
 
 vault operator init -recovery-shares=1 -recovery-threshold=1 > recoverykey.txt
