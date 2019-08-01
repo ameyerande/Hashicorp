@@ -30,5 +30,9 @@ vault status
 vault operator init -recovery-shares=1 -recovery-threshold=1 > recoverykey.txt
 
 vault operator init -recovery-shares=1 -recovery-threshold=1
+systemctl stop vault
+vault status
+
+systemctl start vault
 
 vault status
