@@ -5,7 +5,7 @@
 "tls_disable" : 1
 }
 }],
-"api_addr": "http://3.16.129.33:8200",
+"api_addr": "http://ec2-18-184-10-50.eu-central-1.compute.amazonaws.com:8200",
 "storage": {
     "file": {
     "path" : "/opt/vault-data"
@@ -16,6 +16,6 @@
 "ui":true
 }
 "seal": "awskms": {
-  "region" : "us-east-2",
+  "region" : "eu-central-1",
   "kms_key_id" : "dc82f5cd-017d-4073-9880-4ecc22d26cab"
 }
