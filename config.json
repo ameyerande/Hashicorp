@@ -17,7 +17,5 @@
 }
 "seal": "awskms": {
   "region" : "us-east-2",
-  "access_key" : "AKIAJ7IQT7RY7AZNC56A",
-  "secret_key" : "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",
-  "kms_key_id" : "02d1d3ee-dfba-4d66-9e66-2054fa1054fe"
+  "kms_key_id" : "dc82f5cd-017d-4073-9880-4ecc22d26cab"
 }
