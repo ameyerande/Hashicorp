@@ -22,3 +22,10 @@ cp config.json /etc/vault
 cp vault.service /etc/systemd/system
 
 systemctl start vault
+
+Vault status
+
+vault operator init -recovery-shares=1 -recovery-threshold=1 > recoverykey.txt
+
+
+
