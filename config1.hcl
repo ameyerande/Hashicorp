@@ -3,7 +3,7 @@ listener "tcp" {
   tls_disable = 1
 }
 
-api_addr =  "http://ec2-3-121-227-216.eu-central-1.compute.amazonaws.com:8200"
+api_addr =  "http://ec2-18-184-60-84.eu-central-1.compute.amazonaws.com:8200"
 storage "file" {
     "path" = "/opt/vault-data"
     }
