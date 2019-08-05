@@ -14,5 +14,5 @@ ui = true
 
 seal "awskms" {
   region =  "eu-central-1"
-  kms_key_id = "e0eccdfc-66b4-42cc-beb6-2ae1da89818d"
+  kms_key_id = "fa0139fb-e9bb-4d66-9c28-4c77b042e3da"
 }
