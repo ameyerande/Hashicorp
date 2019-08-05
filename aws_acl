@@ -1,0 +1,3 @@
+path "aws/sts*" {
+  capabilities = ["create","update"]
+}
