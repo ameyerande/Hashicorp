@@ -2,12 +2,12 @@
 Description=vault service
 Requires=network-online.target
 After=network-online.target
-ConditionFileNotEmpty=/etc/vault/config.hcl
+ConditionFileNotEmpty=/etc/vault/config1.hcl
 
 [Service]
 Environment=GOMAXPROCS=2
 Restart=on-failure
-ExecStart=/usr/bin/vault server -config=/etc/vault/config.hcl
+ExecStart=/usr/bin/vault server -config=/etc/vault/config1.hcl
 StandardOutput=/logs/vault/output.log
 StandardError=/logs/vault/error.log
 LimitMEMLOCK=infinity
